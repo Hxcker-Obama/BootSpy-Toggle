@@ -1,3 +1,4 @@
+_G.Log = not _G.Log
 
 getgenv = getgenv or function() return getfenv(2) end
 local Logger = {} -- Type = {LastCall=os.time(), CallsPerSec=number}
